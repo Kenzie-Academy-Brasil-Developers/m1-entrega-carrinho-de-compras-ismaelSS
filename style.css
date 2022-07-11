@@ -1,0 +1,96 @@
+html, body, header, ul,ol, li, img, p, h1, h2, h3, nav, div, a, section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+    margin: 8px;
+}
+
+h1{
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: -2px;
+}
+
+main{
+    width: 500px;
+    margin: auto;
+    font-size: 15px ;
+    display: flex;
+    flex-direction: column;
+}
+
+#divTop{
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    border-radius: 3px;
+    height: 39.2px;
+    align-items: center;
+}
+.productList{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.ProductItem{
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    height: 39.2px;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.ProductItem:hover{
+    background-color: #2091c96d;
+    transition: 0.2s;
+}
+#nomeProduto{
+    font-weight: 600;
+}
+#total{
+    font-weight: 600;
+}
+#productDetais li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    height: 61.6px;
+    align-items: center;
+    background-color: rgb(233, 236, 239);
+    border-radius: 3px;
+}
+#productDetais li:hover{
+    background-color: #abff9681;
+}
+
+button{
+   align-self: center;
+   width: 100%;
+   background-color: #20C997;
+   border: none;
+   border-radius: 3px;
+   height: 39.2px;
+   color: #fff;
+   font-weight: 600;
+   animation:alternate;
+}  
+button:hover{
+    background-color: #20c942;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.97);
+    transition: 0.2s;
+}

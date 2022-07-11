@@ -87,6 +87,7 @@ button{
    color: #fff;
    font-weight: 600;
    animation:alternate;
+   font-size: 20px;
 }  
 button:hover{
     background-color: #20c942;
